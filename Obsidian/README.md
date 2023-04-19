@@ -1,1 +1,1 @@
-# Obsidian-skole
+# Obsidian notatbok
