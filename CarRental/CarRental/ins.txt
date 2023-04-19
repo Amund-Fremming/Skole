@@ -1,0 +1,64 @@
+INSERT INTO address 
+	(streetadr, postalcode, region)
+VALUES
+	('Ibsens Gate 79', '5007', 'Bergen'),
+	('Johans Nedre Gate 81', '5092', 'Bergen'),
+	('Flesland Gate 111', '5000', 'Bergen'),
+	('Rolf Jacobsenvegen 7', '6090', 'Trondheim'),
+	('Haralds Hårfagresveg 18', '2320', 'Trondheim'),
+	('Raskemnn Gate 3', '5007', 'Trondheim'),
+	('Sørge Børge Gate 71', '4012', 'Oslo'),
+	('Jakobs Havnersgate 99', '4222', 'Oslo'),
+	('Gardemoens Flyveg 1', '4040', 'Oslo');
+	
+
+
+INSERT INTO rentaloffice 
+	(name, mobile, addressid)
+VALUES 
+	('Bergen Amazing Rental', '90774144', 1),
+	('Flesland Rental Service', '90111111', 3),
+	('Trondheim Hot Car', '99998888', 4),
+	('Vernes Carrental', '44448888', 6),
+	('Oslo Cityrental', '45454545', 7),
+	('Gardemoen IDrive', '99999999', 9);
+
+	
+	
+INSERT INTO userr 
+	(mobile, fname, lname, addressid, password)
+VALUES
+	('90698932', 'Sindre', 'Kjelsrud', 2, 'Hallo123'),
+	('90698931', 'Kenneth', 'Fremming', 8, 'Halla999'),
+	('91234567', 'Harlad', 'Nilsen', 5, 'Hei12345');
+
+	
+INSERT INTO car 
+	(regnr, brand, model, color, sizegroup, available, img, officeid)
+VALUES
+	('EV55555', 'Tesla', 'X', 'C', 'TRUE', 'https://shared.cdn.smp.schibsted.com/v2/images/224efc69-86b5-4be6-8e21-4193e65702a1?fit=crop&format=auto&h=1125&w=2000&s=1ee5bd9e7b296eeee887c3a40fabc7931ba91620', 1),
+	('AA69696', 'Fiat', '500', 'A', 'TRUE', 'https://www.fiat.no/wp-content/uploads/2022/04/31-overview.jpg', 1),
+	('SE50505', 'Ford', 'Transit', 'D', 'TRUE', 'https://weudealerimagesprd.blob.core.windows.net/no7/product/file/transitvan.jpg', 1),
+	('BD12345', 'Toyota', 'Corolla', 'A', 'TRUE', 'https://media.ed.edmunds-media.com/toyota/corolla/2023/oem/2023_toyota_corolla_sedan_xse_fq_oem_1_1600.jpg', 2),
+	('BK99999', 'Audi', 'A6', 'B', 'TRUE', 'https://i.auto-bild.de/mdb/extra_large/41/c8-ef3.png', 2),
+	('AC34567', 'Puegot', '308', 'B', 'TRUE', 'https://www.topgear.com/sites/default/files/2022/05/037.jpg', 2),
+	('SB98765', 'Mercedes', 'GL', 'C', 'TRUE', 'https://quickbutik.imgix.net/13098R/products/5daed3cc488b4.jpeg?w=500&h=500&auto=format', 2),
+	('AT11111', 'Bugatti', 'Chiron', 'B', 'TRUE', 'https://revolutionaryprogramdesign.com/wp-content/uploads/2022/11/Andrew-Tate-Bugatti.jpg', 2),
+	('BD70705', 'Kia', 'Soul', 'B', 'TRUE', 'https://cdn.shopify.com/s/files/1/0879/4078/products/Ladeguiden-KiaSoulEV-Front-Elbilgrossisten2000px.jpg?v=1629742680', 3),
+	('RA61357', 'BMW', 'X5', 'C', 'TRUE', 'https://www.cdn.tv2.no/images/15490524.jpg?imageId=15490524&width=1060&height=597', 3),
+	('TB12349', 'Mercedes', 'E', 'B', 'TRUE', 'https://broom.tv2.no/underholdning/broom/media/images/content/8976/car_page_main.jpg', 3),
+	('BU88877', 'Audi', 'A2', 'A', 'TRUE', 'https://broom.tv2.no/underholdning/broom/media/images/content/346/car_page_main.jpg', 4),
+	('DB58735', 'Tesla', 'Y', 'B', 'TRUE', 'https://elbil.no/content/uploads/2021/09/Tesla-Model-Y.jpeg', 4),
+	('VY33883', 'Hummer', 'H1', 'C', 'TRUE', 'https://www.topgear.com/sites/default/files/images/news-article/2021/03/7704d623beab84cf792ac6220b212f37/mil-spec-m1r-outside-front-side-angle-view.jpg', 4),
+	('FX22334', 'Toyota', 'Hiace', 'D', 'TRUE', 'https://f.nordiskemedier.dk/2txb79j017da1w4b.jpg', 5),
+	('MA12798', 'Ferrari', 'f40', 'B', 'TRUE', 'https://media.evo.co.uk/image/private/s--FDIc9h2---/v1584722625/evo/2020/03/Ferrari%20F40%20icon-14.jpg', 5),
+	('BR55555', 'Lamborghini', 'Aventador', 'B', 'TRUE', 'https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_gw/aventador/gallery/aven_gate_05_m.jpg', 5),
+	('JU22222', 'Range Rover', 'SVR', 'C', 'TRUE', 'https://cdn.motor1.com/images/mgl/E664Ne/s1/2023-land-rover-range-rover-sport-svr-rendering.jpg', 5),
+	('TV59834', 'Nissan', 'Skyline', 'B', 'TRUE', 'http://speedhunters-wp-production.s3.amazonaws.com/wp-content/uploads/2021/07/20205450/Speedhunters_R34roller-3-1200x800.jpg', 6),
+	('CD31289', 'Mini Morris', '1970', 'A', 'TRUE', 'https://upload.wikimedia.org/wikipedia/commons/6/67/1963_MkI_Mini.jpg', 6),
+	('RC44123', 'Volkswagen', 'Golf', 'B', 'TRUE', 'https://image.klikk.no/2864739.jpg?imageId=2864739&x=0&y=0&cropw=100&croph=100&width=480&height=241', 6),
+	('BK68798', 'Hummer', 'H2 Limousin', 'D', 'TRUE', 'https://images.ctfassets.net/r1xeyn8lz4i6/2eb3a8fdcc8b92bc4e7be05b993d40c9/b2ff2d8a38ac2823d7ad81ee9e239509/Hummer_Limo.jpg?w=1920', 6),
+	('IS91283', 'Smart', 'ForTwo', 'A', 'TRUE', 'https://platform.cstatic-images.com/xlarge/in/v2/stock_photos/fedaf4d5-4b0b-43cd-96fe-f19fed0a13af/ae222a63-ac1c-466d-b630-bbcd050df851.png', 6),
+	('BK77552', 'Toyota', 'Yaris', 'B', 'TRUE', 'https://akamai.vgc.no/v2/images/6285a453-72a7-429e-808e-85b67afb0e54?fit=crop&format=auto&h=1267&w=1900&s=896805d063e55114caff0d475c86c3771bf87771', 6);
+	
+
