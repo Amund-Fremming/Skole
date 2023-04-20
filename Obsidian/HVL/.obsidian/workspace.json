@@ -37,14 +37,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4.Semester/dat110/notes/Untitled/Nettverk.md",
+                "file": "4.Semester/dat110/Q&A/Quizes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f48abe4348b7b34a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "konsulent/Untitled.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "77d5a5550e132aa6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Chatgpt/Promps.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -110,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4.Semester/dat110/notes/Untitled/Nettverk.md",
+                "file": "Chatgpt/Promps.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "4.Semester/dat110/notes/Untitled/Nettverk.md",
+                "file": "Chatgpt/Promps.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "4.Semester/dat110/notes/Untitled/Nettverk.md"
+                "file": "Chatgpt/Promps.md"
               }
             }
           }
@@ -171,15 +195,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "34c67a5d96be0971",
+  "active": "77d5a5550e132aa6",
   "lastOpenFiles": [
+    "konsulent/Untitled.md",
+    "Chatgpt/Promps.md",
+    "Chatgpt",
+    "4.Semester/dat110/Q&A/Quizes.md",
+    "4.Semester/dat110/notes/Untitled/Nettverk.md",
     "Pasted image 20230411194651.png",
     "Pasted image 20230411194508.png",
     "Pasted image 20230411194316.png",
     "Pasted image 20230411193624.png",
     "Pasted image 20230411193542.png",
     "img/Pasted image 20230324132821.png",
-    "4.Semester/dat110/notes/Untitled/Nettverk.md",
     "konsulent/Portfolio.md",
     "4.Semester/dat110/notes/Transport Layer.md",
     "konsulent",
@@ -187,7 +215,6 @@
     "img/Pasted image 20230330101750.png",
     "img/Pasted image 20230329095940.png",
     "img/Pasted image 20230329095858.png",
-    "img/Pasted image 20230329095443.png",
     "4.Semester/dat110/notes/Mutual Exclution.md",
     "4.Semester/dat110/notes/Logical Clocks.md",
     "Fribyte/Intro/7. Tjeneste.md",
@@ -196,7 +223,6 @@
     "4.Semester/dat110/notes/Consistency & Replication II.md",
     "4.Semester/dat110/notes/Communication.md",
     "4.Semester/dat110/notes/Untitled",
-    "4.Semester/dat110/Q&A/Quizes.md",
     "4.Semester/dat110/Q&A/Book Assignments.md",
     "4.Semester/dat110/Q&A/Labs.md",
     "4.Semester/dat110/Q&A/Lecture assignments.md",
@@ -212,7 +238,6 @@
     "Fribyte/Intro/6. Git.md",
     "Fribyte/Intro/1. Proxmox.md",
     "Fribyte/Intro/2. Linux.md",
-    "Fribyte/Intro/3. SSH.md",
     "Fribyte/Intro",
     "Fribyte",
     "4.Semester/dat110/Q&A",
