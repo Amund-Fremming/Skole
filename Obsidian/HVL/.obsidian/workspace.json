@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Chatgpt/Promps.md",
+                "file": "Chatgpt/OpenAi.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Chatgpt/Promps.md",
+                "file": "Chatgpt/OpenAi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Chatgpt/Promps.md",
+                "file": "Chatgpt/OpenAi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Chatgpt/Promps.md"
+                "file": "Chatgpt/OpenAi.md"
               }
             }
           }
@@ -198,7 +198,7 @@
   "active": "77d5a5550e132aa6",
   "lastOpenFiles": [
     "konsulent/Untitled.md",
-    "Chatgpt/Promps.md",
+    "Chatgpt/OpenAi.md",
     "Chatgpt",
     "4.Semester/dat110/Q&A/Quizes.md",
     "4.Semester/dat110/notes/Untitled/Nettverk.md",
