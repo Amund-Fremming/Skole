@@ -1,1 +1,2 @@
-# Old folder for previous school projects from previous termins
+# Gamle prosjekter fra starten av mitt dataingeniørstudie
+- Ekstremt mye dårlig og rotete kode
